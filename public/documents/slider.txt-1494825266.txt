@@ -1,0 +1,418 @@
+<div id="slideshow" style=" max-height: 500px;">
+            <div class="fullwidthbanner-container" style="max-height: 500px !important;">
+                <div class="revolution-slider rev_slider" style="height: 0; max-height: 500px; overflow: hidden;">
+                    <ul style=" max-height: 500px;">    <!-- SLIDE  -->
+                        <li  data-index="rs-10" data-transition="random" data-slotamount="7" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="600"  data-thumb="{{asset('public/images/themes/website-templates.jpg')}}"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="{{asset('public/images/themes/website-templates.jpg')}}"  alt="" title="Slider1"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                            <!-- LAYERS -->
+
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption   tp-resizeme" 
+                                 id="slide-10-layer-1" 
+                                 data-x="405" 
+                                 data-y="170" 
+                                            data-width="['none','none','none','none']"
+                                data-height="['none','none','none','none']"
+                                data-transform_idle="o:1;"
+                     
+                                 data-transform_in="y:bottom;s:1500;e:Power3.easeInOut;" 
+                                 data-transform_out="y:50px;opacity:0;s:300;s:300;" 
+                                data-start="600" 
+                                data-responsive_offset="on" 
+
+                                
+                                style="z-index: 5;"><img src="{{asset('public/images/themes/biman_logo.png')}}" alt="" data-ww="auto" data-hh="auto" data-no-retina> </div>
+
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption   tp-resizeme" 
+                                 id="slide-10-layer-2" 
+                                 data-x="485" 
+                                 data-y="305" 
+                                            data-width="['none','none','none','none']"
+                                data-height="['none','none','none','none']"
+                                data-transform_idle="o:1;"
+                     
+                                 data-transform_in="x:right;s:1500;e:Power3.easeInOut;" 
+                                 data-transform_out="x:-50px;opacity:0;s:300;s:300;" 
+                                data-start="1000" 
+                                data-responsive_offset="on" 
+
+                                holidays wings
+                                style="z-index: 6;"><img src="{{asset('public/images/themes/holidays-wings.png')}}" alt="" data-ww="auto" data-hh="auto" data-no-retina> </div>
+
+                           
+                           
+                        </li>
+                        <!-- SLIDE  -->
+                            <li data-index="rs-14" data-transition="zoomout" data-slotamount="7" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="{{asset('public/images/themes/bg1.jpg')}}"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="{{asset('public/images/themes/bg1.jpg')}}"  alt="" title="Slider1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                            <!-- LAYERS -->
+
+                            <!-- LAYER NR. 1 -->
+                              <div class="tp-caption   tp-resizeme" 
+                                 id="slide-11-layer-3" 
+                                 data-x="702" 
+                                 data-y="70" 
+                                            data-width="['none','none','none','none']"
+                                data-height="['none','none','none','none']"
+                                data-transform_idle="o:1;"
+                     
+                                 data-transform_in="x:1000;y:360;z:-250;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1800;e:Power3.easeInOut;" 
+                                 data-transform_out="opacity:0;s:300;s:300;" 
+                                data-start="1100" 
+                                data-responsive_offset="on" 
+
+                                
+                                style="z-index: 7;"><img src="{{asset('public/images/themes/top1.png')}}" alt="" data-ww="auto" data-hh="auto" data-no-retina> </div>
+                                         
+
+
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption   tp-resizeme" 
+                                 id="slide-14-layer-2" 
+                                 data-x="27" 
+                                 data-y="260" 
+                                            data-width="['none','none','none','none']"
+                                data-height="['none','none','none','none']"
+                                data-transform_idle="o:1;"
+                     
+                                 data-transform_in="x:right;s:1500;e:Power3.easeInOut;" 
+                                 data-transform_out="x:-50px;opacity:0;s:1500;s:1500;" 
+                                data-start="800" 
+                                data-responsive_offset="on"
+
+                                style="z-index: 6;"><img src="{{asset('public/images/themes/island.png')}}" alt="" data-ww="267px" data-hh="187px" data-no-retina> </div>
+
+                         
+                            <!-- LAYER NR. 4 -->
+                            <div class="tp-caption   tp-resizeme" 
+                                 id="slide-14-layer-4" 
+                                 data-x="384" 
+                                 data-y="360" 
+                                            data-width="['none','none','none','none']"
+                                data-height="['none','none','none','none']"
+                                data-transform_idle="o:1;"
+                     
+                                 data-transform_in="x:left;s:1500;e:Power3.easeInOut;" 
+                                 data-transform_out="y:-50px;opacity:0;s:300;s:300;" 
+                                data-start="1400" 
+                                data-responsive_offset="on"
+
+                                style="z-index: 8;"><img src="{{asset('public/images/themes/plane.png')}}" alt="" data-ww="262px" data-hh="100px" data-no-retina> </div>
+
+                            <!-- LAYER NR. 5 -->
+                            <div class="tp-caption large_bold_white_med_2   tp-resizeme" 
+                                 id="slide-14-layer-5" 
+                                 data-x="25" 
+                                 data-y="101" 
+                                            data-width="['auto']"
+                                data-height="['auto']"
+                                data-transform_idle="o:1;"
+                     
+                                 data-transform_in="y:bottom;s:1500;e:Power3.easeInOut;" 
+                                 data-transform_out="x:50px;opacity:0;s:300;s:300;" 
+                                data-start="1700" 
+                                data-splitin="none" 
+                                data-splitout="none" 
+                                data-responsive_offset="on"
+
+                                style="z-index: 9; white-space: nowrap; color: rgba(255, 255, 255, 1.00);font-family:Arial;border-color:rgba(255, 214, 88, 1.00);"><p class="caption-big-title">Let's <strong><i>Discover</i></strong> the world together!</p> </div>
+
+                   
+
+                            <!-- LAYER NR. 7 -->
+                            <div class="tp-caption   tp-resizeme" 
+                                 id="slide-14-layer-7" 
+                                 data-x="23" 
+                                 data-y="145" 
+                                            data-width="['none','none','none','none']"
+                                data-height="['none','none','none','none']"
+                                data-transform_idle="o:1;"
+                     
+                                 data-transform_in="x:-50px;opacity:0;s:1500;e:Power3.easeInOut;" 
+                                 data-transform_out="x:-50px;opacity:0;s:1300;s:1300;" 
+                                data-start="2300" 
+                                data-responsive_offset="on"
+
+                                style="z-index: 11;"><i class="soap-icon-hotel" style="font-size: 28px;color:black;"  alt="" data-ww="auto" data-hh="auto" data-no-retina></i></div>
+
+                            <!-- LAYER NR. 8 -->
+                            <div class="tp-caption   tp-resizeme" 
+                                 id="slide-14-layer-8" 
+                                 data-x="29" 
+                                 data-y="190" 
+                                            data-width="['none','none','none','none']"
+                                data-height="['none','none','none','none']"
+                                data-transform_idle="o:1;"
+                     
+                                 data-transform_in="x:-50px;opacity:0;s:1300;e:Power3.easeInOut;" 
+                                 data-transform_out="x:-50px;opacity:0;s:1100;s:1100;" 
+                                data-start="2600" 
+                                data-responsive_offset="on"
+
+                                style="z-index: 12;"><i class="soap-icon-card" style="font-size: 28px;color:black;" alt="" data-ww="auto" data-hh="auto" data-no-retina> </i></div>
+
+                            <!-- LAYER NR. 9 -->
+                            <div class="tp-caption   tp-resizeme" 
+                                 id="slide-14-layer-9" 
+                                 data-x="29" 
+                                 data-y="230" 
+                                            data-width="['none','none','none','none']"
+                                data-height="['none','none','none','none']"
+                                data-transform_idle="o:1;"
+                     
+                                 data-transform_in="x:-50px;opacity:0;s:1500;e:Power3.easeInOut;" 
+                                 data-transform_out="x:-50px;opacity:0;s:900;s:900;" 
+                                data-start="2900" 
+                                data-responsive_offset="on"
+
+                                style="z-index: 13;"><i class="soap-icon-passenger" style="font-size: 28px;color:black;" alt="" data-ww="auto" data-hh="auto" data-no-retina></i> </div>
+
+            
+
+                            <!-- LAYER NR. 11 -->
+                            <div class="tp-caption large_bold_white_med   tp-resizeme" 
+                                 id="slide-14-layer-11" 
+                                 data-x="73" 
+                                 data-y="150" 
+                                            data-width="['auto']"
+                                data-height="['auto']"
+                                data-transform_idle="o:1;"
+                     
+                                 data-transform_in="y:top;s:1500;e:Power3.easeInOut;" 
+                                 data-transform_out="x:-50px;opacity:0;s:300;s:300;" 
+                                data-start="3500" 
+                                data-splitin="none" 
+                                data-splitout="none" 
+                                data-responsive_offset="on"
+
+                                style="z-index: 15; white-space: nowrap; color: rgba(255, 255, 255, 1.00);font-family:Arial;border-color:rgba(255, 214, 88, 1.00);"><span class="caption-medium-title">More than <strong>450,000+</strong> Places</span> </div>
+
+                            <!-- LAYER NR. 12 -->
+                            <div class="tp-caption large_bold_white_med   tp-resizeme" 
+                                 id="slide-14-layer-12" 
+                                 data-x="73" 
+                                 data-y="190" 
+                                            data-width="['auto']"
+                                data-height="['auto']"
+                                data-transform_idle="o:1;"
+                     
+                                 data-transform_in="y:top;s:1500;e:Power3.easeInOut;" 
+                                 data-transform_out="x:-50px;opacity:0;s:300;s:300;" 
+                                data-start="3800" 
+                                data-splitin="none" 
+                                data-splitout="none" 
+                                data-responsive_offset="on"
+
+                                style="z-index: 16; white-space: nowrap; color: rgba(255, 255, 255, 1.00);font-family:Arial;border-color:rgba(255, 214, 88, 1.00);"><span class="caption-medium-title">Visa processing</span> </div>
+
+                            <!-- LAYER NR. 13 -->
+                            <div class="tp-caption large_bold_white_med   tp-resizeme" 
+                                 id="slide-14-layer-13" 
+                                 data-x="73" 
+                                 data-y="230" 
+                                            data-width="['auto']"
+                                data-height="['auto']"
+                                data-transform_idle="o:1;"
+                     
+                                 data-transform_in="y:top;s:1500;e:Power3.easeInOut;" 
+                                 data-transform_out="x:-50px;opacity:0;s:300;s:300;" 
+                                data-start="4100" 
+                                data-splitin="none" 
+                                data-splitout="none" 
+                                data-responsive_offset="on"
+
+                                style="z-index: 17; white-space: nowrap; color: rgba(255, 255, 255, 1.00);font-family:Arial;border-color:rgba(255, 214, 88, 1.00);"><span class="caption-medium-title">Airport Facility</span> </div>
+
+                
+
+                    </li>
+                       
+                  
+                        <!-- SLIDE  -->
+                        <li data-index="rs-21" data-transition="cube" data-slotamount="7" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="800"  data-thumb="{!!asset('public/images/themes/bg_4.jpg')!!}"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="{!!asset('public/images/themes/bg_4.jpg')!!}"  alt="" title="Slider1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                            <!-- LAYERS -->
+
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption large_bold_white_med   tp-resizeme" 
+                                 id="slide-21-layer-1" 
+                                 data-x="15" 
+                                 data-y="261" 
+                                            data-width="['auto']"
+                                data-height="['auto']"
+                                data-transform_idle="o:1;"
+                     
+                                 data-transform_in="x:left;s:1500;e:Power3.easeInOut;" 
+                                 data-transform_out="x:-50px;opacity:0;s:300;s:300;" 
+                                data-start="1000" 
+                                data-splitin="none" 
+                                data-splitout="none" 
+                                data-responsive_offset="on" 
+
+                                
+                                style="z-index: 5;">Explore Bangladesh </div>
+
+                           
+
+                            <!-- LAYER NR. 4 -->
+                            <div class="tp-caption   tp-resizeme" 
+                                 id="slide-21-layer-4" 
+                                 data-x="618" 
+                                 data-y="0" 
+                                            data-width="['none','none','none','none']"
+                                data-height="['none','none','none','none']"
+                                data-transform_idle="o:1;"
+                     
+                                 data-transform_in="y:top;s:1500;e:Power3.easeInOut;" 
+                                 data-transform_out="y:-50px;opacity:0;s:300;s:300;" 
+                                data-start="2000" 
+                                data-responsive_offset="on" 
+
+                                
+                                style="z-index: 8;"><img src="{{asset('public/images/themes/poss/poss88.png')}}" alt="" data-ww="auto" data-hh="auto" data-no-retina> </div>
+
+                            <!-- LAYER NR. 5 -->
+                            <div class="tp-caption   tp-resizeme" 
+                                 id="slide-21-layer-5" 
+                                 data-x="470" 
+                                 data-y="85" 
+                                            data-width="['none','none','none','none']"
+                                data-height="['none','none','none','none']"
+                                data-transform_idle="o:1;"
+                     
+                                 data-transform_in="x:{-250,250};y:{-150,150};rX:{-90,90};rY:{-90,90};rZ:{-360,360};sX:0;sY:0;opacity:0;s:1500;e:Power3.easeInOut;" 
+                                 data-transform_out="x:{-250,250};y:{-150,150};rX:{-90,90};rY:{-90,90};rZ:{-360,360};sX:0;sY:0;opacity:0;s:300;s:300;" 
+                                data-start="2300" 
+                                data-responsive_offset="on" 
+
+                                
+                                style="z-index: 9;"><img src="{{asset('public/images/themes/poss/poss66.png')}}" alt="" data-ww="auto" data-hh="auto" data-no-retina> </div>
+
+                            <!-- LAYER NR. 6 -->
+                            <div class="tp-caption   tp-resizeme" 
+                                 id="slide-21-layer-6" 
+                                 data-x="762" 
+                                 data-y="57" 
+                                            data-width="['none','none','none','none']"
+                                data-height="['none','none','none','none']"
+                                data-transform_idle="o:1;"
+                     
+                                 data-transform_in="x:right;s:1500;e:Power3.easeInOut;" 
+                                 data-transform_out="x:50px;opacity:0;s:300;s:300;" 
+                                data-start="2600" 
+                                data-responsive_offset="on" 
+
+                                
+                                style="z-index: 10;"><img src="{{asset('public/images/themes/poss/poss77.png')}}" alt="" data-ww="auto" data-hh="auto" data-no-retina> </div>
+
+                            <!-- LAYER NR. 7 -->
+                            <div class="tp-caption   tp-resizeme" 
+                                 id="slide-21-layer-7" 
+                                 data-x="723" 
+                                 data-y="99" 
+                                            data-width="['none','none','none','none']"
+                                data-height="['none','none','none','none']"
+                                data-transform_idle="o:1;"
+                     
+                                 data-transform_in="x:{-250,250};y:{-150,150};rX:{-90,90};rY:{-90,90};rZ:{-360,360};sX:0;sY:0;opacity:0;s:1500;e:Power3.easeInOut;" 
+                                 data-transform_out="x:{-250,250};y:{-150,150};rX:{-90,90};rY:{-90,90};rZ:{-360,360};sX:0;sY:0;opacity:0;s:300;s:300;" 
+                                data-start="2900" 
+                                data-responsive_offset="on" 
+
+                                
+                                style="z-index: 11;"><img src="{{asset('public/images/themes/poss/poss1.png')}}" alt="" data-ww="auto" data-hh="auto" data-no-retina> </div>
+
+                            <!-- LAYER NR. 8 -->
+                            <div class="tp-caption   tp-resizeme" 
+                                 id="slide-21-layer-8" 
+                                 data-x="586" 
+                                 data-y="297" 
+                                            data-width="['none','none','none','none']"
+                                data-height="['none','none','none','none']"
+                                data-transform_idle="o:1;"
+                     
+                                 data-transform_in="y:bottom;s:1500;e:Power3.easeInOut;" 
+                                 data-transform_out="y:bottom;s:300;s:300;" 
+                                data-start="3200" 
+                                data-responsive_offset="on" 
+
+                                
+                                style="z-index: 12;"><img src="{{asset('public/images/themes/poss/poss44.png')}}" alt="" data-ww="auto" data-hh="auto" data-no-retina> </div>
+
+                            <!-- LAYER NR. 9 -->
+                            <div class="tp-caption   tp-resizeme" 
+                                 id="slide-21-layer-9" 
+                                 data-x="656" 
+                                 data-y="186" 
+                                            data-width="['none','none','none','none']"
+                                data-height="['none','none','none','none']"
+                                data-transform_idle="o:1;"
+                     
+                                 data-transform_in="x:{-250,250};y:{-150,150};rX:{-90,90};rY:{-90,90};rZ:{-360,360};sX:0;sY:0;opacity:0;s:1500;e:Power3.easeInOut;" 
+                                 data-transform_out="x:{-250,250};y:{-150,150};rX:{-90,90};rY:{-90,90};rZ:{-360,360};sX:0;sY:0;opacity:0;s:300;s:300;" 
+                                data-start="3500" 
+                                data-responsive_offset="on" 
+
+                                
+                                style="z-index: 13;"><img src="{{asset('public/images/themes/poss/poss33.png')}}" alt="" data-ww="auto" data-hh="auto" data-no-retina> </div>
+
+                            <!-- LAYER NR. 10 -->
+                            <div class="tp-caption   tp-resizeme" 
+                                 id="slide-21-layer-10" 
+                                 data-x="558" 
+                                 data-y="306" 
+                                            data-width="['none','none','none','none']"
+                                data-height="['none','none','none','none']"
+                                data-transform_idle="o:1;"
+                     
+                                 data-transform_in="x:-50px;opacity:0;s:1500;e:Power3.easeInOut;" 
+                                 data-transform_out="x:-50px;opacity:0;s:300;s:300;" 
+                                data-start="3800" 
+                                data-responsive_offset="on" 
+
+                                
+                                style="z-index: 14;"><img src="{{asset('public/images/themes/poss/small.png')}}" alt="" data-ww="auto" data-hh="auto" data-no-retina> </div>
+
+                            <!-- LAYER NR. 11 -->
+                            <div class="tp-caption   tp-resizeme" 
+                                 id="slide-21-layer-11" 
+                                 data-x="836" 
+                                 data-y="255" 
+                                            data-width="['none','none','none','none']"
+                                data-height="['none','none','none','none']"
+                                data-transform_idle="o:1;"
+                     
+                                 data-transform_in="x:right;s:1500;e:Power3.easeInOut;" 
+                                 data-transform_out="x:50px;opacity:0;s:300;s:300;" 
+                                data-start="4100" 
+                                data-responsive_offset="on" 
+
+                                
+                                style="z-index: 15;"><img src="{{asset('public/images/themes/poss/poss55.png')}}" alt="" data-ww="auto" data-hh="auto" data-no-retina> </div>
+
+                            <!-- LAYER NR. 12 -->
+                            <div class="tp-caption   tp-resizeme" 
+                                 id="slide-21-layer-12" 
+                                 data-x="762" 
+                                 data-y="342" 
+                                            data-width="['none','none','none','none']"
+                                data-height="['none','none','none','none']"
+                                data-transform_idle="o:1;"
+                     
+                                 data-transform_in="x:{-250,250};y:{-150,150};rX:{-90,90};rY:{-90,90};rZ:{-360,360};sX:0;sY:0;opacity:0;s:1500;e:Power3.easeInOut;" 
+                                 data-transform_out="x:{-250,250};y:{-150,150};rX:{-90,90};rY:{-90,90};rZ:{-360,360};sX:0;sY:0;opacity:0;s:300;s:300;" 
+                                data-start="4400" 
+                                data-responsive_offset="on" 
+
+                                
+                                style="z-index: 16;"><img src="{{asset('public/images/themes/poss/poss.png')}}" alt="" data-ww="auto" data-hh="auto" data-no-retina> </div>
+                        </li>
+              
+                    </ul>
+                </div>
+            </div>
+        </div>

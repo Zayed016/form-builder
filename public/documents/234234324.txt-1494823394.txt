@@ -1,0 +1,83 @@
+mailto:info@softlabbd.com	
+<?php 
+@session_start();
+?>
+<html>
+    <head>
+     <script src="https://easternbank.ap.gateway.mastercard.com/checkout/version/33/checkout.js"
+                 data-error="<?=$_SESSION["deny"]?>"
+                 data-cancel="<?=$_SESSION["no"]?>"
+                 data-complete="<?=$_SESSION["yes"]?>"
+                >
+        </script>
+<!-- data-error="errorCallback"
+                data-cancel="cancelCallback"
+                data-complete="completeCallback" -->
+
+        <script type="text/javascript">
+            // function errorCallback(error) {
+            //       console.log(JSON.stringify(error));
+            // }
+            // function completeCallback(resultIndicator, sessionVersion) {
+            //     console.log("Result Indicator");
+            //     console.log(JSON.stringify(resultIndicator));
+            //     console.log("Session Version:");
+            //     console.log(JSON.stringify(sessionVersion));
+            //     console.log("Successful Payment");
+            // }
+            // function cancelCallback() {
+            //       console.log('Payment cancelled');
+            // }
+
+Checkout.configure({
+    merchant   : '40060013',
+    order      : {
+        amount     : function() {
+                        //Dynamic calculation of amount
+                        return '1';
+       },
+        currency   : 'BDT',
+        description: 'Ordered',
+        id: '<?=$_SESSION["result"]["OrderID"];?>'
+      },
+        
+		billing    : {
+        address: {
+            street       : '',
+            city         : '',
+            postcodeZip  : '',
+            stateProvince: '',
+            country      : ''
+        }
+       },
+    interaction: {
+        merchant      : {
+            name   : 'Travel Shop Ltd',
+            address: {
+                          line1: '',
+                          line2: ''            
+            },
+            email  : '',
+            phone  : '',
+            logo   : 'https://www.imageupload.co.uk/images/2017/04/04/finla-biman-holidys.gif'
+        },
+        locale        : 'en_US',
+        theme         : 'default',
+        displayControl: {
+           
+			billingAddress: 'HIDE',
+            customerEmail : 'HIDE',
+            orderSummary  : 'HIDE',
+            paymentTerms  : 'HIDE'
+        }
+    }
+});
+        </script>
+    </head>
+    <body onload="" style="display: none;" >
+        ...
+        <input type="button" value="Pay with Lightbox" onclick="Checkout.showLightbox();" />
+		<input type="button" value="Pay with Payment Page" onclick="Checkout.showPaymentPage();" />
+                      ...
+    </body>
+</html>

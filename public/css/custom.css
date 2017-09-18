@@ -1,0 +1,62 @@
+.inner{
+    padding:10px 0px 10px 20px;
+    color:white;
+  }
+
+input[type='checkbox']{
+  font-size: 15px;
+  width: 16px;
+    height: 16px;
+  cursor: pointer;
+    top:0%;
+    left: 0%;
+   
+     margin:-3px 3px 0 0;
+    vertical-align:middle;
+   
+    padding: 0px;
+
+    box-shadow: inset 0px 0px 8px 1px #d2d6de;
+    border: 0px;
+}
+input[type='radio']{
+  font-size: 15px;
+  width: 16px;
+    height: 16px;
+  cursor: pointer;
+    top:0%;
+    left: 0%;
+   
+     margin:-3px 0px 0 0!important;
+    vertical-align:middle;
+   
+    padding: 0px;
+
+  
+    border: 0px;
+}
+.required{
+  color:red;
+  font-size:14px;
+  padding: 0px 3px;
+}
+
+.control-label{
+  text-align: right;
+}
+.modal-footer{
+  clear:both;
+}
+ .ho {
+margin: 0px; 
+  
+    color: white;
+    background-color: #0cbae8;
+}
+.callout{
+      padding: 6px 30px 6px 10px;
+}
+.bg-mine{
+  color:white;
+    background-color: #3c8dbc!important;
+}
