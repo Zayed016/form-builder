@@ -52,23 +52,28 @@
       </div>
       <div class="modal-body">
 
- 
+      <div id="option_place">
         <?php $op=App\DatabaseModel::getFormOptions($show->id) ?>
       @foreach($op as $view) 
-      <div class="form-group col-md-8">
-      <input type="text" class="form-control" style="width:100%;" name="oldoption,{{$view->id}}"  value="{{$view->name}}" placeholder="">
+
+      <div style="padding:10px;">
+      <div class="col-xs-11" style="display:inline;">
+      <input type="text" class="form-control" style="width:100%;" name="options[]"  value="{{$view->name}}" placeholder="">
+      </div>
+      <i class="fa fa-times remove_option" ></i>
+      <div style="clear:both;"></div>
         </div>
         @endforeach
         
-           <div class="form-group col-md-8">
-        <input type="text" class="form-control" style="width:100%;" name="options"  value="" placeholder="">
+         
     </div>
-      <div style="clear:both;"></div>
+    <div class="col-xs-3" style="float:left;">
+     <button id="option_add" type="button" class="btn btn-warning">Add Option</button>
         </div>
       
-         
-        <div class="modal-footer" style="clear:both;">
-        <button type="submit"  class="btn bg-green margin">Save</button>
+        </div> 
+        <div class="modal-footer" >
+        <button type="submit"  class="btn bg-green ">Save</button>
       </div>
  </div>
     </form>
@@ -242,5 +247,31 @@
           <!-- /.box -->
   
 </div>
+<style>
+.remove_option{
+  display:inline;
+  color:red;
+  font-size:23px;
+  cursor:pointer;
+}
+</style>
+<script>
 
+$(document).ready(function() {
+  
+  
+      $("#option_add").click(function(e) {
+          e.preventDefault();
+         $('#option_place').append('<div  style="padding:10px;"><div class="col-xs-11" style="display:inline;"><input type="text" class="form-control" style="width:100%;" name="options[]"  value="" placeholder=""></div><i class="fa fa-times remove_option" ></i><div style="clear:both;"></div></div>')
+          
+      });
+  
+      $(document).on("click", ".remove_option", function(e) { //user click on remove text
+          e.preventDefault();
+          $(this).parent().remove();
+      
+      })
+  
+  });
+</script>
 @endsection

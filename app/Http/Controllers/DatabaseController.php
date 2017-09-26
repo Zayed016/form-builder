@@ -180,35 +180,23 @@ class DatabaseController extends Controller
     }
 
     public function saveOption($id,Request $request){
-      
-      //$delOld=DB::table('form_options')->where('form_property_id',$id)->delete();
   
-      foreach($request->input() as $key => $value){
-       if($key!='_token'){
-        if( strpos( $key, 'old' ) !== false ) {
-        $get=explode(',',$key);
-        if($value==''){
-            DB::table('form_options')->where('id',$get[1])->where('form_property_id',$id)->delete();
-        }else{
-        DB::table('form_options')->where('id',$get[1])->where('form_property_id',$id)->update(array(
-            'name'=>$value,
-            'updated_at'=>date('Y-m-d H:i:s'),
-          ));
-          }
-        }elseif( $value!=''){
-          
-          DB::table('form_options')->insert(array(
-            'form_property_id'=>$id,
-            'name'=>$value,
-            'created_at'=>date('Y-m-d H:i:s'),
-          ));
-        }
+        $delOld=DB::table('form_options')->where('form_property_id',$id)->delete();
+       
+        foreach($request->input('options') as $key => $value){
+  
+            DB::table('form_options')->insert(array(
+              'form_property_id'=>$id,
+              'name'=>$value,
+              'created_at'=>date('Y-m-d H:i:s'),
+            ));
+  
       }
-    }
+        
+        Session::flash('active', 'database');
+        
+        return redirect()->back()->with('success','Select options updated Successfully');
       
-      Session::flash('active', 'database');
-      
-      return redirect()->back()->with('success','Select options updated Successfully');
     }
 
     public function formList(){
