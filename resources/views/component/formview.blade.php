@@ -61,6 +61,7 @@
     @endforeach
     @elseif($data->type=='checkbox')
     <h3></h3>
+    <input  name="{{$data->table_name}}_{{$data->column_name}}" type="hidden" value="0">
     <label ><input  name="{{$data->table_name}}_{{$data->column_name}}" type="{{$data->type}}" value="1" >  @if($data->label!='' || $data->label!=NULL )
         {{$data->label}}
         @else

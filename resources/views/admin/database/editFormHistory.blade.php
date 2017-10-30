@@ -82,7 +82,7 @@
     @endforeach
     @elseif($data->type=='checkbox')
     
-
+    <input  name="{{$data->table_name}}_{{$data->column_name}}" type="hidden" value="0">
     <label ><input  name="{{$data->table_name}}_{{$data->column_name}}" type="{{$data->type}}" value="1"
     @if(App\DatabaseModel::formInputValue($data->table_name,$property->primary_table,$data->column_name,Request::segment(4))==1) checked  @endif   >
       @if($data->label!='' || $data->label!=NULL )
